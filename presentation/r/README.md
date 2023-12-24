@@ -6,7 +6,7 @@ setwd("C:/DATA/uni/bio/bioinformatics-hsu/presentation/r")
 isch <- read.delim("./isch.txt")
 ```
 بعد از اجرای درستورات بالا باید دستورات زیر به خوبی کار کنند.
-<details>
+<details dir='rtl'>
     <summary>
         <strong>دستورات تست کردن دیتا</strong>
     </summary>
