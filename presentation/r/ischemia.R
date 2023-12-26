@@ -8,4 +8,7 @@ isch <- subset(isch, a < 0.2)
 
 x <- isch[, 4:7]
 x.m <- melt(x)
-ggplot(x.m, aes(variable, value)) + geom_boxplot()
+
+ggplot(x.m, aes(variable, value)) + geom_violin(width=1, aes(fill=variable)) + geom_boxplot(width=.05)
+
+ggplot(isch, aes(A, E, color=Ischemia)) + geom_point() + theme_bw()

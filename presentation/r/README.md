@@ -144,6 +144,36 @@ ggplot(x.m, aes(variable, value)) + geom_boxplot()
 ```
 </div>
 
+اگر نوع `geom_plot` را به `geom_violin` تغییر بدهیم میتوانیم فراوانی‌ها را در نمودار دقیق‌تر ببینیم
+<div dir='ltr'>
+
+```r
+ggplot(x.m, aes(variable, value)) + geom_violin()
+```
+</div>
+اگر کد بالا را به صورت زیر تغییر دهیم نمودار قشنگ‌تری خواهیم داشت:
+<div dir='ltr'>
+
+```r
+ggplot(x.m, aes(variable, value)) + geom_violin(width=1, aes(fill=variable)) + geom_boxplot(width=.05)
+```
+</div><br>
+در انتها می‌خواهیم ویژوالایز را پس از اینکه به خوبی دیتا را شناختیم به سمتی ببریم که برای کلاسیفای مفید باشد
+<br>
+در اینجا ما می‌خواهیم کلاسیفای را بر اساس داده‌های ستون‌های A و E انجام دهیم:
+<div dir='ltr'>
+
+```r
+ggplot(isch, aes(A, E, color=Ischemia)) + geom_point() + theme_bw()
+```
+</div>
+
+
+
+
+
+
+
 
 
 </div>
