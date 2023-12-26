@@ -10,6 +10,7 @@ isch <- read.delim("./isch.txt")
     <summary>
         <strong>دستورات تست کردن دیتا</strong>
     </summary>
+    <br>
 خواندن 5 سطر اول
 
 <div dir='ltr'>
@@ -55,8 +56,9 @@ dim(na.omit(isch))
 ```
 </div>
 </details>
+<div dir='rtl'>
 
-### حذف سطرهای اضافه توضیحات
+### حذف سطرهای اضافه
 با استفاده از دستور زیر سطرهای اضافی را پاک میکنیم:
 <div dir='ltr'>
 
@@ -140,4 +142,8 @@ x.m <- melt(x)
 ```r
 ggplot(x.m, aes(variable, value)) + geom_boxplot()
 ```
+</div>
+
+
+
 </div>
