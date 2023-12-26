@@ -150,13 +150,15 @@ ggplot(x.m, aes(variable, value)) + geom_boxplot()
 ```r
 ggplot(x.m, aes(variable, value)) + geom_violin()
 ```
-</div>
+<div align='center'><img src='https://github.com/EnAnsari/bioinformatics-hsu/assets/109433485/7690c079-5749-4573-8eff-ba19f4dbcec4' alt='chart' width=500 align="center"></div>
+</div><br>
 اگر کد بالا را به صورت زیر تغییر دهیم نمودار قشنگ‌تری خواهیم داشت:
 <div dir='ltr'>
 
 ```r
 ggplot(x.m, aes(variable, value)) + geom_violin(width=1, aes(fill=variable)) + geom_boxplot(width=.05)
 ```
+<div align='center'><img src='https://github.com/EnAnsari/bioinformatics-hsu/assets/109433485/d0a3359e-ad5d-4bd1-9c41-ac3c9131f46d' alt='chart' width=500 align="center"></div>
 </div><br>
 در انتها می‌خواهیم ویژوالایز را پس از اینکه به خوبی دیتا را شناختیم به سمتی ببریم که برای کلاسیفای مفید باشد
 <br>
@@ -167,6 +169,7 @@ ggplot(x.m, aes(variable, value)) + geom_violin(width=1, aes(fill=variable)) + g
 ggplot(isch, aes(A, E, color=Ischemia)) + geom_point() + theme_bw()
 ```
 </div>
+<div align='center'><img src='https://github.com/EnAnsari/bioinformatics-hsu/assets/109433485/511b9b51-556d-459d-80e6-9441f2ad7f61' alt='chart' width=500 align="center"></div>
 
 
 
