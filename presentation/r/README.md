@@ -275,5 +275,6 @@ colnames(res) <- c("Sen", "Spe")
 ggplot(res, aes(1 - Spe, Sen)) + geom_point()
 ```
 </div>
+<div align='center'><img src='https://github.com/EnAnsari/bioinformatics-hsu/assets/109433485/96e2ffae-bad0-4b4b-b85a-343831285bd6' alt='chart' width=500 align="center"></div><br>
 <strong>هدف ما ماکسیمم کردن مساحت زیر نمودار یا همان دقت ما خواهد بود. آن را هم می‌توان ,حساب کرد.</strong>
 </div>
