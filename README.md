@@ -1,7 +1,7 @@
 # درس بیوانفورماتیک
 <div dir="rtl">
   <a href='/doc/README-EN.md' title="go to the English Readme page"><img src='https://img.shields.io/badge/click_to_README-English-red.svg' alt='en'></a>
-  <a href='/blob/main/LICENSE' title="go to the license"><img src='https://img.shields.io/badge/license-MIT-blue.svg' alt='lc'></a>
+  <a href='/LICENSE' title="go to the license"><img src='https://img.shields.io/badge/license-MIT-blue.svg' alt='lc'></a>
 </div>
 
 🧑‍🏫 استاد:
