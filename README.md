@@ -1,9 +1,17 @@
 # درس بیوانفورماتیک
+<div dir="rtl">
 
-استاد:
+  [![en](https://img.shields.io/badge/click_to_README-English-red.svg)](/doc/README-EN.md)
+  [![lc](https://img.shields.io/badge/license-MIT-blue.svg)](/blob/main/LICENSE)
+
+</div>
+
+🧑‍🏫 استاد:
 <a href='https://scholar.google.com/citations?user=phoSeskAAAAJ&hl=en'>پیمان نعمت الهی</a>
 <br><br>
-#### کدها به زودی قرار خواهند گرفت.
+
+💡 فایل‌های مربوط به ارائه **ماشین لرنینگ در بیوانفورماتیک** در <a href='/presentation'>پوشه presentation</a> قرار دارند.
+<br><br>
 
 <details><summary><strong>Download Box</strong> (click to expand)</summary>
 
