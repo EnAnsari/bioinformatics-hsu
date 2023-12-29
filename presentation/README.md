@@ -45,4 +45,10 @@
     <td><a href="https://github.com/EnAnsari/guess-price-car">go to repository</a></td>
     <td></td>
   </tr>
+  <tr>
+    <td>7</td>
+    <td>Classify by R presentation</td>
+    <td><a href="https://github.com/EnAnsari/bioinformatics-hsu/releases/download/1.0.0/present-record-2.rar">download</a></td>
+    <td>59.5 MB</td>
+  </tr>
 </table>
